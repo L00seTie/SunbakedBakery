@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sun Baked: Pickup</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.CSS" />
+    <link rel="icon" href="images/logo.jpeg" type="image/ico" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <!--------HEADER-------->
+      <header>
+        <h1><a href="index.html">Sun Baked</a></h1>
+      </header>
+      <img
+        id="logo"
+        src="images/logo.jpeg"
+        alt="logo of a woman holding a sign that says: made with love"
+      />
+
+      <div id="hero"></div>
+
+      <!--------NAV-------->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <hr />
+          <li><a href="menu.html">Menu</a></li>
+          <hr />
+          <li><a href="directions.html">Directions</a></li>
+          <hr />
+          <li><a href="pickup.html">Pickup</a></li>
+          <hr />
+          <li><a href="catering.html">Catering</a></li>
+        </ul>
+      </nav>
+
+      <!--------MAIN-------->
+      <main>
+        <h2>Pickup</h2>
+        <p>
+          We are happy to offer orders for pickup. Fill out your order below or
+          call us directly at
+          <a id="callNumber" href="call:(480) 837-2448">(480) 837-2448</a>.
+        </p>
+        <h3>Order Online</h3>
+        <form action="">
+          <!--name-->
+          <label for="custName">Name</label><br />
+          <input type="text" id="custName" name="custName" /><br /><br />
+          <!--phone-->
+          <label for="phone">Phone number</label><br />
+          <input type="text" id="phone" name="phone" /><br /><br />
+          <!--order-->
+          <label for="pickupOrder">Describe your order below:</label><br />
+          <input type="text" id="pickupOrder" name="pickupOrder" /><br /><br />
+          <input type="submit" value="Order Pickup" />
+        </form>
+        <br />
+      </main>
+
+      <!--------FOOTER-------->
+      <footer>
+        Copyright &copy; 2022 Robin Johnson <br />
+        <script id="date" type="text/javascript">
+          var date = document.lastModified;
+          document.write("Last updated: " + date);
+        </script>
+      </footer>
+    </div>
+    <br />
+    <a id="toTop" href="#top">Back to top of page</a>
+    <br /><br />
+  </body>
+</html>

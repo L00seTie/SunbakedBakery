@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sun Baked: Catering</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.CSS" />
+    <link rel="icon" href="images/logo.jpeg" type="image/ico" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <!--------HEADER-------->
+      <header>
+        <h1><a href="index.html">Sun Baked</a></h1>
+      </header>
+      <img
+        id="logo"
+        src="images/logo.jpeg"
+        alt="logo of a woman holding a sign that says: made with love"
+      />
+
+      <div id="hero"></div>
+
+      <!--------NAV-------->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <hr />
+          <li><a href="menu.html">Menu</a></li>
+          <hr />
+          <li><a href="directions.html">Directions</a></li>
+          <hr />
+          <li><a href="pickup.html">Pickup</a></li>
+          <hr />
+          <li><a href="catering.html">Catering</a></li>
+        </ul>
+      </nav>
+
+      <!--------MAIN-------->
+      <main>
+        <h2>Catering</h2>
+        <p>
+          Attention all business professionals, Bible study groups and anyone
+          that loves to entertain: let us provide for your next meeting or
+          party. We now make trays with mini cinnamon rolls, sticky buns, and
+          danishes; perfect for your next event!
+        </p>
+        <h3>Rates</h3>
+        <table>
+          <tr>
+            <th>Number of People</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <td>1-20</td>
+            <td>$14.50</td>
+          </tr>
+          <tr>
+            <td>21-30</td>
+            <td>$30.50</td>
+          </tr>
+          <tr>
+            <td>31-40</td>
+            <td>$65.50</td>
+          </tr>
+        </table>
+        <h3>Order Now</h3>
+        <form action="">
+          <!--name-->
+          <label for="custName">Name</label><br />
+          <input type="text" id="custName" name="custName" /><br /><br />
+          <!--phone-->
+          <label for="phone">Phone number</label><br />
+          <input type="text" id="phone" name="phone" /><br />
+          <!--people-->
+          <p>Number of people:</p>
+          <input type="radio" id="ppl1" name="ppl" value="20" />
+          <label for="ppl1">1 - 20</label><br />
+          <input type="radio" id="ppl2" name="ppl" value="30" />
+          <label for="age2">21 - 30</label><br />
+          <input type="radio" id="ppl3" name="ppl" value="40" />
+          <label for="age3">31 - 40</label><br /><br />
+          <!--date-->
+          <label for="date">Date of Event</label><br />
+          <input type="date" id="date" name="date" /><br /><br />
+          <input type="submit" value="Order Catering" />
+        </form>
+        <br />
+      </main>
+
+      <!--------FOOTER-------->
+      <footer>
+        Copyright &copy; 2022 Robin Johnson <br />
+        <script id="date" type="text/javascript">
+          var date = document.lastModified;
+          document.write("Last updated: " + date);
+        </script>
+      </footer>
+    </div>
+    <br />
+    <a id="toTop" href="#top">Back to top of page</a>
+    <br /><br />
+  </body>
+</html>
